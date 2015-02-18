@@ -11,13 +11,13 @@ class CalendarEvent(models.Model):
     Calendar Events
     """
     CSS_CLASS_CHOICES = (
-        ('', _('Normal')),
-        ('event-warning', _('Warning')),
-        ('event-info', _('Info')),
-        ('event-success', _('Success')),
-        ('event-inverse', _('Inverse')),
-        ('event-special', _('Special')),
-        ('event-important', _('Important')),
+        ('', _('Ezer ez')),
+        ('event-warning', _('Partida')),
+        ('event-info', _('Jokoa')),
+        ('event-success', _('Hitzaldia')),
+        ('event-inverse', _('Lehiaketa')),
+        ('event-special', _('Txapelketa')),
+        ('event-important', _('Berezia')),
     )
     title = models.CharField(max_length=255, verbose_name=_('Title'))
     url = models.URLField(verbose_name=_('URL'), null=True, blank=True)
