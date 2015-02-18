@@ -20,7 +20,7 @@ class CalendarEvent(models.Model):
         ('event-important', _('Berezia')),
     )
     title = models.CharField(max_length=255, verbose_name=_('Title'))
-    desc = models.TextField(verbose_name=_('Description'))
+    desc = models.TextField(verbose_name=_('Description'), null=True, blank=True)
     url = models.URLField(verbose_name=_('URL'), null=True, blank=True)
     css_class = models.CharField(max_length=20, verbose_name=_('Type'),
                                  choices=CSS_CLASS_CHOICES)
