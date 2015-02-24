@@ -52,11 +52,11 @@ msgstr "Izenburua"
 
 #: models.py:23
 msgid "Description"
-msgstr ""
+msgstr "Deskribapena"
 
 #: models.py:24
 msgid "URL"
-msgstr ""
+msgstr "URLa"
 
 #: models.py:25
 msgid "Type"
@@ -72,7 +72,7 @@ msgstr "Amaiera data"
 
 #: models.py:30
 msgid "All Day"
-msgstr ""
+msgstr "Egun osokoa"
 
 #: models.py:30
 msgid "Mark this when the time is irrelevant"
