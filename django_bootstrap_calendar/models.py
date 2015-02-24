@@ -27,7 +27,7 @@ class CalendarEvent(models.Model):
     start = models.DateTimeField(verbose_name=_('Start Date'))
     end = models.DateTimeField(verbose_name=_('End Date'), null=True,
                                blank=True)
-    all_day = models.BooleanField(help_text=_('Mark this when the time is irrelevant'))
+    all_day = models.BooleanField(verbose_name=_('All Day'),help_text=_('Mark this when the time is irrelevant'))
 
     @property
     def start_timestamp(self):

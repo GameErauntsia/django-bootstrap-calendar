@@ -60,7 +60,7 @@ msgstr ""
 
 #: models.py:25
 msgid "Type"
-msgstr ""
+msgstr "Mota"
 
 #: models.py:27
 msgid "Start Date"
@@ -72,7 +72,7 @@ msgstr "Amaiera data"
 
 #: models.py:30
 msgid "Mark this when the time is irrelevant"
-msgstr ""
+msgstr "Markatu hau orduak axola ez duenean"
 
 #: templates/django_bootstrap_calendar/partial/calendar_controls.html:5
 msgid "Prev"
