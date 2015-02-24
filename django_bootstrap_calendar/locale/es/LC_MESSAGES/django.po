@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-25 22:18+0200\n"
+"POT-Creation-Date: 2015-02-24 17:31+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,52 +19,60 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: models.py:14
-msgid "Normal"
+msgid "Ezer ez"
 msgstr ""
 
 #: models.py:15
-msgid "Warning"
-msgstr "Atención"
+msgid "Partida"
+msgstr ""
 
 #: models.py:16
-msgid "Info"
+msgid "Jokoa"
 msgstr ""
 
 #: models.py:17
-msgid "Success"
-msgstr "Éxito"
+msgid "Hitzaldia"
+msgstr ""
 
 #: models.py:18
-msgid "Inverse"
-msgstr "Inverso"
+msgid "Lehiaketa"
+msgstr ""
 
 #: models.py:19
-msgid "Special"
-msgstr "Especial"
+msgid "Txapelketa"
+msgstr ""
 
 #: models.py:20
-msgid "Important"
-msgstr "Importante"
+msgid "Berezia"
+msgstr ""
 
 #: models.py:22
 msgid "Title"
 msgstr "Título"
 
 #: models.py:23
-msgid "URL"
+msgid "Description"
 msgstr ""
 
 #: models.py:24
-msgid "CSS Class"
+msgid "URL"
 msgstr ""
 
 #: models.py:25
+msgid "Type"
+msgstr ""
+
+#: models.py:27
 msgid "Start Date"
 msgstr "Fecha inicial"
 
-#: models.py:26
+#: models.py:28
 msgid "End Date"
 msgstr "Fecha final"
+
+#: models.py:30
+msgid "Mark this when the time is irrelevant"
+msgstr ""
 
 #: templates/django_bootstrap_calendar/partial/calendar_controls.html:5
 msgid "Prev"
@@ -81,3 +89,18 @@ msgstr "Año"
 #: templates/django_bootstrap_calendar/partial/calendar_controls.html:11
 msgid "Month"
 msgstr "Mes"
+
+#~ msgid "Warning"
+#~ msgstr "Atención"
+
+#~ msgid "Success"
+#~ msgstr "Éxito"
+
+#~ msgid "Inverse"
+#~ msgstr "Inverso"
+
+#~ msgid "Special"
+#~ msgstr "Especial"
+
+#~ msgid "Important"
+#~ msgstr "Importante"

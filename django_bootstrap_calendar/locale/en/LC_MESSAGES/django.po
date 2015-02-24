@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-25 22:18+0200\n"
+"POT-Creation-Date: 2015-02-24 17:31+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,31 +18,31 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: models.py:14
-msgid "Normal"
+msgid "Ezer ez"
 msgstr ""
 
 #: models.py:15
-msgid "Warning"
+msgid "Partida"
 msgstr ""
 
 #: models.py:16
-msgid "Info"
+msgid "Jokoa"
 msgstr ""
 
 #: models.py:17
-msgid "Success"
+msgid "Hitzaldia"
 msgstr ""
 
 #: models.py:18
-msgid "Inverse"
+msgid "Lehiaketa"
 msgstr ""
 
 #: models.py:19
-msgid "Special"
+msgid "Txapelketa"
 msgstr ""
 
 #: models.py:20
-msgid "Important"
+msgid "Berezia"
 msgstr ""
 
 #: models.py:22
@@ -50,19 +50,27 @@ msgid "Title"
 msgstr ""
 
 #: models.py:23
-msgid "URL"
+msgid "Description"
 msgstr ""
 
 #: models.py:24
-msgid "CSS Class"
+msgid "URL"
 msgstr ""
 
 #: models.py:25
+msgid "Type"
+msgstr ""
+
+#: models.py:27
 msgid "Start Date"
 msgstr ""
 
-#: models.py:26
+#: models.py:28
 msgid "End Date"
+msgstr ""
+
+#: models.py:30
+msgid "Mark this when the time is irrelevant"
 msgstr ""
 
 #: templates/django_bootstrap_calendar/partial/calendar_controls.html:5
