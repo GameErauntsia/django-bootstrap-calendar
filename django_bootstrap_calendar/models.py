@@ -2,6 +2,7 @@
 __author__ = 'sandlbn'
 
 from django.db import models
+from django.conf import settings
 from django.utils.translation import ugettext_lazy as _
 from utils import datetime_to_timestamp
 
@@ -42,6 +43,9 @@ class CalendarEvent(models.Model):
         Return end date as timestamp
         """
         return datetime_to_timestamp(self.end)
+        
+    def getTwitText(self):
+        return '[AGENDA] ' + self.title + ' ' + settings.HOST + 'agenda' 
 
     def __unicode__(self):
         return self.title
