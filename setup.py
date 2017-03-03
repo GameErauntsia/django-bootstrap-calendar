@@ -40,6 +40,7 @@ setup(
     license="BSD",
     zip_safe=False,
     keywords='django_bootstrap_calendar',
+    requires=['django(>=1.10)'],
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Framework :: Django',
