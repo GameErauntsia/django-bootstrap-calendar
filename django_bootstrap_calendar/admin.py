@@ -1,4 +1,4 @@
-from models import CalendarEvent
+from .models import CalendarEvent
 from django.contrib import admin
 
 
